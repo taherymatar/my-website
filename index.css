@@ -1,0 +1,97 @@
+body {
+    height: 1100px;
+    font-family: Arial, Tahoma;
+    background-color: #3333334d;
+    box-shadow: 0 0 12px 3px rgb(110 106 106) inset;
+}
+
+.header {
+    background: #333;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 22px 0;
+
+}
+
+img {
+    width: 145px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -133px;
+    margin-left: 35px;
+}
+
+.name a {
+    text-decoration: none;
+    color: rgb(76, 66, 82);
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
+}
+
+#name {
+    font-family: 'Comic Neue', cursive;
+}
+
+.name {
+    display: flex;
+    padding-left: 200px;
+    background: #DDD;
+    height: 60px;
+    color: rgb(76, 66, 82);
+}
+
+.name ul {
+    display: grid;
+    grid-template-columns: 140px 215px;
+    list-style: none;
+    padding-left: 520px;
+    background: #DDD;
+    font-family: Arial, Tahoma;
+    font-weight: bold;
+}
+
+.name ul li {
+    padding-bottom: 7px;
+    padding-right: 30px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    margin: 40px;
+    text-align: center;
+    /* box-shadow: 0 0 12px 3px rgb(110 106 106) inset; */
+}
+
+span {
+    color: #c92222d6;
+}
+
+p {
+    padding-top: 10px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(192, 58, 58, 0.842);
+}

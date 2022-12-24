@@ -1,5 +1,5 @@
 body {
-    height: 900px;
+    height: 1025px;
     font-family: Arial, Tahoma;
     background-color: #3333334d;
     box-shadow: 0 0 12px 3px rgb(110 106 106) inset;
@@ -68,6 +68,7 @@ img {
 
 span {
     color: #c92222d6;
+    font-weight: bold;
 }
 
 p {
